@@ -26,7 +26,7 @@
             background-color: darkred;
             background-image: 
                 linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url("/spider.jpg");
+                url("../ex1_biografia/spider.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             min-height: 1000px;
@@ -38,15 +38,27 @@
             gap: 20px;
         }
 
+        #texto {
+            color: white;
+            font: 100px;
+            font-size: 30px;
+            
+        }
+
+        #fundo2{
+            background-color: darkred;
+            color: white;
+        }
+
     </style>
     <title>ex1_biografia</title>
 </head>
 <body>
     <h1 id="meunome" title="Sinval(tuxinhu) Neto">Sinval Neto 🕸️</h1>
-    <p class="fundo">Sou Sinval Neto, desenvolvedor focado em front-end e apaixonado por tecnologia desde cedo. 
-        Encontro inspiração no universo do <mark>Homem-Aranha</mark>, onde responsabilidade, coragem e criatividade guiam meus passos. 
-        Gosto de transformar ideias em interfaces funcionais, intuitivas e cheias de personalidade.
-         Sempre evoluindo, sempre codando — com um toque de herói no caminho..</p>
+    <p class="fundo">Sou Sinval Neto, desenvolvedor focado em front-end e apaixonado por tecnologia desde cedo.<br> 
+        Encontro inspiração no universo do <mark id="fundo2">Homem-Aranha</mark>, onde responsabilidade, coragem e criatividade guiam meus passos.<br>
+        Gosto de transformar ideias em interfaces funcionais, intuitivas e cheias de personalidade.<br>
+         Sempre evoluindo, sempre codando — com um toque de herói no caminho.</p>
         <hr>
         <h2 class="fundo">Minhas Habilidades</h2>
         <strong class="fundo">Desenvolvimento de Sites</strong> <em class="fundo">100%</em> <br>
@@ -59,7 +71,12 @@
 
         </div>
         
-        <h2
+        <h2 class="fundo">Localização</h2>
+        <p id="texto">
+            20 Ingram Street, Forest Hills <br>
+            Queens <br>
+            Nova York<br>
+        </p>
 
 </body>
 </html>
